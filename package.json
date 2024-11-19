@@ -1,0 +1,32 @@
+{
+  "name": "simple-ecommerce",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@nativescript/core": "~8.8.0",
+    "@react-navigation/native": "^6.1.14",
+    "@react-navigation/stack": "^6.3.25",
+    "react": "^18.2.0",
+    "react-nativescript": "^5.0.0",
+    "react-nativescript-navigation": "^5.0.0",
+    "axios": "^1.6.7",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@nativescript/preview-cli": "1.0.13",
+    "@nativescript/stackblitz": "0.0.8",
+    "@nativescript/types-minimal": "~8.8.0",
+    "@nativescript/webpack": "~5.0.8",
+    "@types/react": "^18.2.6",
+    "typescript": "~5.4.0"
+  },
+  "scripts": {
+    "start": "ns preview",
+    "dev": "ns preview",
+    "type-check": "tsc --noEmit"
+  }
+}
